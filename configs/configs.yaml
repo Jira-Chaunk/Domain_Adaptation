@@ -1,0 +1,12 @@
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  output_path: "outputs/"
+model:
+  feature_dim: 64
+  num_classes: 2
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 50
+  lambda_adapt: 0.1
